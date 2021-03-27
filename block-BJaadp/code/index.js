@@ -230,26 +230,6 @@ for(let element of pipeline){
   console.log(initialValue);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let pipeline2 = [
   increment,
   half,
@@ -264,5 +244,9 @@ let pipeline2 = [
   triple,
 ];
 
+for(let element of pipeline2){
 
+  initialValue=element(initialValue);
+  console.log(initialValue);
+}
 // Find the output using pipeline2 the initial value if 8
